@@ -33,7 +33,7 @@ class DeepDanbooruWrapper:
         self,
     ):
 
-        self.dd_classifier = DeepDanbooru()
+        self.dd_classifier = DeepDanbooru().float()
         self.cache = {}
         self.enable_cache = True
 
